@@ -7,40 +7,27 @@ edge=[]
 file_handle=open("issue_component.csv",'r')
 file_handle.readline()
 for line in file_handle:
-    a=""
-    b=""
-    for i in line:
-        if i!=' ' :
-            a+=i
-        else:
-            
-            break
-    flag=0
+    a,b=line.split(",")
+    b=b[:-1]
+    
     issue_id.add(a)
-    for i in line:
-        if i=='\n':
-            break
-        if flag==1:
-            b+=i
-        if i==' ' :
-            flag=1
-
     component.add(b)
     edge.append([b,a])
     
-    if(b in link.keys()):
-        link[b].append(a)
+    if(a in link.keys()):
+        link[a].add(b)
     else:
-        link[b]=[]
-        link[b].append(a)
+        link[a]=set()
+        link[a].add(b)
 
+for i in issue_id:
+    for j in issue_id:
+        if i!=j:
+            check=len(link[i].intersection(link[j]))
+            if check:
+                print(str(i)+" "+str(check)+" "+str(j))
+    print(" --------------------------- ")
 
-for i in component:
-    for j in link[i]:
-        if(j in ans.keys()):
-            ans[j]+=len(link[i])-1
-        else:
-            ans[j]=len(link[i])-1
         
-for i in ans:
-    print(str(i)+ " "+ str(ans[i]))
+
+

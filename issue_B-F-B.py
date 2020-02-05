@@ -14,20 +14,20 @@ for line in file_handle:
     component.add(b)
     edge.append([b,a])
     
-    if(b in link.keys()):
-        link[b].append(a)
+    if(a in link.keys()):
+        link[a].add(b)
     else:
-        link[b]=[]
-        link[b].append(a)
+        link[a]=set()
+        link[a].add(b)
 
-for i in component:
-    for j in link[i]:
-        if(j in ans.keys()):
-            ans[j]+=len(link[i])-1
-        else:
-            ans[j]=len(link[i])-1
+for i in issue_id:
+    for j in issue_id:
+        if i!=j:
+            check=len(link[i].intersection(link[j]))
+            if check:
+                print(str(i)+" "+str(check)+" "+str(j))
+                print(" ---------------------------------- ")
+
         
-for i in ans:
-    print(str(i)+ " "+ str(ans[i]))
-    print("------------------ ")
+
 

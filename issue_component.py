@@ -4,7 +4,8 @@ component=set()
 link=dict()
 ans=dict()
 edge=[]
-file_handle=open("issue_component.csv",'r')
+file=input()
+file_handle=open(file,'r')
 file_handle.readline()
 for line in file_handle:
     a,b=line.split(",")
@@ -20,6 +21,7 @@ for line in file_handle:
         link[a]=set()
         link[a].add(b)
 
+# print(component)
 for i in issue_id:
     for j in issue_id:
         if i!=j:

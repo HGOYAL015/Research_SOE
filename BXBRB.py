@@ -74,20 +74,27 @@ for line in file_handle:
 
     if(a in link1.keys()):
         if(b in link1[a].keys()):
-            link1[a][b]+=1
+            
+            link1[a][b].add(c)
         else:
-            link1[a][b]=1
+            link1[a][b]=set()
+            link1[a][b].add(c)
+
+
     else:
         link1[a]=dict()
-        link1[a][b]=1
+        link1[a][b]=set()
+        link1[a][b].add(c)
     if(b in link1.keys()):
         if(a in link1[b].keys()):
-            link1[b][a]+=1
+            link1[b][a].add(c)
         else:
-            link1[b][a]=1
+            link1[b][a]=set()
+            link1[b][a].add(c)            
     else:
         link1[b]=dict()
-        link1[b][a]=1
+        link1[b][a]=set()
+        link1[b][a].add(c)
 
 
       
@@ -95,7 +102,7 @@ for i in link1:
     
     ans2[i]=dict()
     for j in link1[i]:
-        ans2[i][j]=link1[i][j]
+        ans2[i][j]=int(len (link1[i][j]))
 
 inter=issue_id.intersection(issue_id1)
 

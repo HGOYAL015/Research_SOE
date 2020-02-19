@@ -36,20 +36,26 @@ for line in file_handle:
 
     if(a in link.keys()):
         if(b in link[a].keys()):
-            link[a][b]+=1
+            link[a][b].add(c)
         else:
-            link[a][b]=1
+            link[a][b]=set()
+            link[a][b].add(c)
     else:
         link[a]=dict()
-        link[a][b]=1
+        link[a][b]=set()
+        link[a][b].add(c)
+
+
     if(b in link.keys()):
         if(a in link[b].keys()):
-            link[b][a]+=1
+            link[b][a].add(c)
         else:
-            link[b][a]=1
+            link[b][a]=set()
+            link[b][a].add(c)
     else:
         link[b]=dict()
-        link[b][a]=1
+        link[b][a]=set()
+        link[b][a].add(c)
 
 
       
@@ -57,9 +63,9 @@ for i in link:
     
     
     for j in link[i]:
-        print(i+"\t"+j+"\t"+str(link[i][j]))
+        print(i+"\t"+j+"\t"+str(len (link[i][j])))
         
         
         
-    print("---------------------------------------------------------")
+    # print("---------------------------------------------------------")
 

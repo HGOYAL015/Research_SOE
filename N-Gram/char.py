@@ -15,7 +15,7 @@ for line in file_handle:
 
 n=len(list_char)
 k=0
-for i in range(2,7):
+for i in range(2,n-1):
     word=list_char[0]
     for j in range(1,i):
         word+=list_char[j]

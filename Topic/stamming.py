@@ -54,4 +54,10 @@ for line in file_handle:
         ldamodel = LdaModel(corpus=corpus, num_topics=3, id2word=dictionary)
 
         for i in ldamodel.show_topics():
-            print(i[1])
+            ans=' '.join(i[1].split(" + "))
+            ans=' '.join(ans.split('*'))
+            ans=''.join(ans.split('"'))
+            
+
+
+            print(ans)

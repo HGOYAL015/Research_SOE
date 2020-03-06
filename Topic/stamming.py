@@ -55,9 +55,9 @@ for line in file_handle:
 
         for i in ldamodel.show_topics():
             ans=' '.join(i[1].split(" + "))
-            ans=' '.join(ans.split('*'))
+            # ans=' '.join(ans.split('*'))
             ans=''.join(ans.split('"'))
             
 
 
-            print(ans)
+            print(a+"~"+ans)

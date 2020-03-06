@@ -1,30 +1,30 @@
-0.111 probably 0.107 incorrect 0.105 snapshot 0.103 cron 0.102 expression 0.099 valid 0.097 default 0.093 repository 0.092 value 0.090 release
-0.107 release 0.105 value 0.104 repository 0.102 default 0.100 valid 0.099 expression 0.098 cron 0.097 snapshot 0.096 incorrect 0.093 probably
-0.101 probably 0.101 value 0.101 snapshot 0.101 valid 0.100 repository 0.100 default 0.100 incorrect 0.099 cron 0.099 expression 0.098 release
-0.033 proxy 0.030 whitelist 0.029 pattern 0.027 central 0.025 fail 0.023 configuration 0.022 download 0.022 default 0.021 06:25:29,796 0.021 policy
-0.049 proxy 0.036 pattern 0.036 whitelist 0.029 pre 0.029 clean 0.027 maven 0.027 policy 0.027 default 0.027 download 0.025 configuration
-0.031 proxy 0.029 pattern 0.028 whitelist 0.024 configuration 0.023 maven 0.023 central 0.022 fail 0.022 download 0.022 policy 0.022 pre
-0.045 key 0.037 long 0.036 specify 0.035 max 0.031 length 0.027 byte 0.023 com.mysql.jdbc.mysqlio.checkerrorpacket(mysqlio.java:2870 0.023 mysql 0.022 org.jpox.store.rdbms.table.abstracttable.executeddlstatementlist(abstracttable.java:570 0.022 com.mysql.jdbc.connection.execsql(connection.java:3099
-0.088 key 0.044 specify 0.044 length 0.042 long 0.041 max 0.034 mysql 0.032 byte 0.020 seen.{code}cause 0.019 bytescom.mysql.jdbc.exceptions.mysqlsyntaxerrorexception 0.019 com.mysql.jdbc.sqlerror.createsqlexception(sqlerror.java:936
-0.047 key 0.037 max 0.036 length 0.034 long 0.030 specify 0.025 byte 0.024 mysql 0.023 org.jpox.store.rdbms.rdbmsmanager$mgmttransaction.execute(rdbmsmanager.java:2406 0.023 org.jpox.store.rdbms.rdbmsmanager.addclass(rdbmsmanager.java:835 0.022 validate
-0.068 repository 0.067 release 0.067 create 0.067 > 0.067 submit= 0.067 snapshot 0.067 repository2- 0.066 1- 0.066 uncheck 0.066 true
-0.079 create 0.076 release 0.071 repository 0.069 1- 0.068 > 0.068 included3- 0.067 uncheck 0.066 submit= 0.066 unable 0.066 edit
-0.104 repository 0.102 release 0.101 create 0.060 repository2- 0.060 true 0.059 stay 0.058 snapshot 0.058 include 0.057 edit 0.057 unable
-0.063 browse 0.063 resolve 0.063 project 0.063 mention 0.063 property 0.063 pom 0.062 pom.xml 0.062 configuration 0.062 values.attached 0.062 page
-0.063 browse 0.063 resolve 0.063 project 0.063 pom 0.063 pom.xml 0.063 property 0.063 mention 0.062 extensively 0.062 values.attached 0.062 configuration
-0.114 resolve 0.114 browse 0.080 pom.xml 0.080 property 0.080 pom 0.079 project 0.046 archiva 0.045 one).but 0.045 use 0.045 attach
-0.048 repository 0.042 internal 0.039 http://trn_esv1:8080 0.032 error 0.032 archiva 0.030 xml_security 0.029 xmlsec 0.025 snapshot 0.025 file 0.019 central
-0.031 repository 0.027 error 0.024 internal 0.024 archiva 0.020 xml_security 0.019 xmlsec 0.018 http://trn_esv1:8080 0.015 snapshot 0.014 file 0.012 transferring
-0.075 repository 0.052 archiva 0.050 xml_security 0.041 xmlsec 0.040 http://trn_esv1:8080 0.038 internal 0.034 error 0.031 snapshot 0.028 file 0.020 specify_remote
-0.114 jar 0.113 javadoc 0.111 attach 0.111 box 0.111 list 0.111 download 0.110 describe 0.110 notice 0.110 artifact
-0.255 jar 0.196 javadoc 0.079 describe 0.079 notice 0.078 artifact 0.078 box 0.078 download 0.078 list 0.078 attach
-0.115 jar 0.112 javadoc 0.111 attach 0.111 artifact 0.110 list 0.110 download 0.110 notice 0.110 box 0.110 describe
-0.069 likely 0.064 complain 0.056 default 0.047 source 0.044 distribution 0.044 ~/.m2 0.044 good 0.043 distribute 0.042 archiva.xml.but 0.041 config
-0.067 default 0.064 complain 0.061 likely 0.043 save 0.042 $ 0.042 code 0.042 need 0.041 review 0.041 situation 0.041 work
-0.057 default 0.053 likely 0.052 complain 0.050 alpha-1 0.047 current 0.043 distribution 0.043 save 0.043 configuration 0.042 $ 0.042 multiple
-0.084 repository 0.069 manage 0.064 archiva 0.050 internal 0.049 downloaded 0.049 store 0.047 new 0.046 default 0.045 connector 0.045 proxy
-0.060 repository 0.055 archiva 0.053 manage 0.046 new 0.046 artifact 0.043 proxy 0.043 connector 0.043 downloaded 0.041 default 0.040 internal
-0.065 repository 0.053 archiva 0.047 connector 0.046 proxy 0.046 artifact 0.045 default 0.044 manage 0.040 store 0.038 internal 0.038 new
-0.094 artifact 0.091 run 0.085 prevent 0.076 consumer 0.060 decide 0.058 get 0.058 check 0.058 database 0.057 scan 0.057 delete
-0.079 consumer 0.077 artifact 0.068 prevent 0.067 run 0.064 time 0.063 purge 0.063 repository 0.060 index 0.060 consume 0.060 check
-0.092 consumer 0.091 prevent 0.086 run 0.078 artifact 0.060 index 0.060 repository 0.056 time 0.054 inconsistent 0.054 delete 0.054 database
+MRM-436~0.101*probably 0.100*release 0.100*default 0.100*valid 0.100*value 0.100*expression 0.100*incorrect 0.100*cron 0.099*snapshot 0.099*repository
+MRM-436~0.103*value 0.102*default 0.102*valid 0.101*expression 0.100*incorrect 0.099*repository 0.098*snapshot 0.098*cron 0.098*probably 0.098*release
+MRM-436~0.105*release 0.104*cron 0.104*snapshot 0.103*probably 0.103*repository 0.099*incorrect 0.097*expression 0.096*valid 0.094*default 0.094*value
+MRM-421~0.037*proxy 0.036*pattern 0.033*whitelist 0.027*default 0.026*central 0.026*download 0.025*policy 0.025*fail 0.023*clean 0.022*configuration
+MRM-421~0.037*proxy 0.035*pattern 0.029*whitelist 0.026*clean 0.025*download 0.025*configuration 0.024*central 0.024*default 0.023*policy 0.023*maven
+MRM-421~0.047*proxy 0.035*whitelist 0.030*pre 0.030*maven 0.029*pattern 0.026*configuration 0.026*fail 0.025*policy 0.025*clean 0.024*default
+MRM-415~0.082*key 0.047*specify 0.044*long 0.041*max 0.039*length 0.032*mysql 0.032*byte 0.020*start 0.020*archiva 0.020*com.mysql.jdbc.mysqlio.checkerrorpacket(mysqlio.java:2870
+MRM-415~0.057*key 0.045*length 0.035*max 0.035*long 0.031*specify 0.028*mysql 0.027*byte 0.023*bytescom.mysql.jdbc.exceptions.mysqlsyntaxerrorexception 0.022*org.jpox.store.rdbms.table.abstracttable.exists(abstracttable.java:341 0.022*com.mysql.jdbc.connection.execsql(connection.java:3170
+MRM-415~0.046*key 0.037*max 0.032*length 0.031*long 0.028*specify 0.025*byte 0.024*mysql 0.024*error 0.023*com.mysql.jdbc.mysqlio.sqlquerydirect(mysqlio.java:1665 0.023*com.mysql.jdbc.connection.execsql(connection.java:3170
+MRM-485~0.103*repository 0.100*create 0.091*release 0.062*stay 0.062*> 0.061*true 0.061*unable 0.060*uncheck 0.059*submit= 0.059*1-
+MRM-485~0.068*repository 0.067*included3- 0.067*create 0.067*include 0.067*release 0.067*repository2- 0.067*snapshot 0.067*uncheck 0.066*submit= 0.066*edit
+MRM-485~0.104*release 0.086*create 0.079*repository 0.070*snapshot 0.068*included3- 0.067*repository2- 0.062*edit 0.061*include 0.060*1- 0.060*submit=
+MRM-488~0.113*browse 0.113*resolve 0.080*pom 0.080*pom.xml 0.079*property 0.079*project 0.046*mention 0.046*one).but 0.046*values.attached 0.046*use
+MRM-488~0.065*resolve 0.064*browse 0.064*project 0.063*pom.xml 0.063*pom 0.062*property 0.062*page 0.062*extensively 0.062*screenshot 0.062*use
+MRM-488~0.070*browse 0.070*resolve 0.067*project 0.066*property 0.064*pom.xml 0.062*pom 0.061*page 0.061*archiva 0.060*configuration 0.060*screenshot
+MRM-431~0.047*repository 0.036*internal 0.032*error 0.030*xml_security 0.029*http://trn_esv1:8080 0.027*xmlsec 0.025*archiva 0.022*snapshot 0.015*central 0.014*file
+MRM-431~0.072*repository 0.048*xml_security 0.042*http://trn_esv1:8080 0.040*archiva 0.037*internal 0.036*xmlsec 0.032*file 0.032*error 0.030*snapshot 0.020*central
+MRM-431~0.056*repository 0.056*archiva 0.037*xmlsec 0.037*xml_security 0.036*internal 0.034*error 0.034*http://trn_esv1:8080 0.026*snapshot 0.021*file 0.018*pom:1.3.0from
+MRM-402~0.237*jar 0.170*javadoc 0.092*notice 0.089*download 0.086*box 0.085*artifact 0.084*attach 0.081*describe 0.076*list
+MRM-402~0.115*javadoc 0.115*jar 0.110*box 0.110*notice 0.110*artifact 0.110*describe 0.110*download 0.110*attach 0.110*list
+MRM-402~0.230*jar 0.197*javadoc 0.091*list 0.086*describe 0.083*attach 0.082*artifact 0.081*box 0.077*download 0.074*notice
+MRM-456~0.051*default 0.050*likely 0.048*config 0.047*complain 0.045*save 0.045*alpha-1 0.044*source 0.044*archiva.xmlthis 0.044*good 0.044*code
+MRM-456~0.047*distribute 0.045*default 0.045*likely 0.045*complain 0.044*save 0.044*config 0.044*configuration 0.044*distribution 0.044*source 0.044*$
+MRM-456~0.071*complain 0.070*likely 0.070*default 0.041*appserver.base}/conf 0.041*work 0.041*current 0.040*~/.m2 0.040*review 0.040*multiple 0.040*distribution
+MRM-493~0.054*manage 0.048*repository 0.046*store 0.045*archiva 0.044*downloaded 0.043*default 0.043*connector 0.041*proxy 0.040*new 0.040*artifact
+MRM-493~0.039*manage 0.039*repository 0.039*archiva 0.039*default 0.039*internal 0.039*downloaded 0.039*new 0.039*store 0.039*artifact 0.038*proxy
+MRM-493~0.089*repository 0.068*archiva 0.065*manage 0.048*internal 0.047*artifact 0.047*new 0.047*proxy 0.047*connector 0.046*default 0.046*downloaded
+MRM-452~0.096*artifact 0.092*prevent 0.092*consumer 0.092*run 0.054*repository 0.053*purge 0.053*database 0.053*delete 0.053*scan 0.053*consume
+MRM-452~0.073*consumer 0.069*prevent 0.068*run 0.065*get 0.064*check 0.062*decide 0.062*index 0.062*inconsistent 0.062*time 0.061*database
+MRM-452~0.070*run 0.068*prevent 0.065*time 0.065*consumer 0.065*get 0.064*artifact 0.062*decide 0.062*check 0.061*consume 0.061*inconsistent

@@ -27,7 +27,7 @@ for i in issue_id:
         if i!=j:
             check=len(link[i].intersection(link[j]))
             if check:
-                print(str(i)+"\t"+str(j)+"\t"+str(check))
+                print(str(i)+"~"+str(j)+"~"+str(check))
     
 
         

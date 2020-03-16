@@ -93,7 +93,7 @@ for i in issue_id:
                         temp=a*b
             sum = sum +temp
 
-        print(i+"\t"+j+"\t"+str(sum))
+        print(i+"~"+j+"~"+str(sum))
         
                 
 

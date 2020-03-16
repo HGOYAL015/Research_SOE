@@ -9,19 +9,13 @@ for line in file_handle:
     list_word=[]
     a,temp=line.split('~',1)
     temp=temp[:-1]
-    # print(temp)
     temp=temp.split(' ')
     temp=temp[:-1]
-    # print(temp)
     list_word+=temp
-    # print(list_word)
-
     n=len(list_word)
     k=0
-    # print(a,end="~")
     for i in list_word:
         print(a+","+i)
-    # print("\n")
     for i in range(2,min(8,n+1)):
         word=list_word[0]
         for j in range(1,i):
@@ -38,15 +32,8 @@ for line in file_handle:
                 ngram[i][word]+=1
             else:
                 ngram[i][word]=1
-
-        # for jj in ngram[i]:
-        #     print(str(jj)+" "+str(ngram[i][jj]))
-        # print("\n")
-        # print(a,end="~")
-
         for jj in ngram[i]:
             print(a+","+str(jj))
-        # print("\n")
 
 
 

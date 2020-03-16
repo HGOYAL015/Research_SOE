@@ -29,7 +29,7 @@ corpus = [dictionary.doc2bow(text) for text in texts]
 if len(corpus) == 0 :
     print()
 else:
-    ldamodel = LdaModel(corpus=corpus, num_topics=4, id2word=dictionary)
+    ldamodel = LdaModel(corpus=corpus, num_topics=50, id2word=dictionary)
     temp_topic_file = datapath("model")
     ldamodel.save(temp_topic_file)
     ldamodel = LdaModel.load(temp_topic_file)

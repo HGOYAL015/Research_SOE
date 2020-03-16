@@ -4,7 +4,7 @@ component=set()
 link=dict()
 ans=dict()
 edge=[]
-file="ngram.txt"
+file=input()
 file_handle=open(file,'r')
 file_handle.readline()
 for line in file_handle:
@@ -22,16 +22,12 @@ for line in file_handle:
         link[a]=set()
         link[a].add(b)
 
-# print(component)
-# print(issue_id)
-
-
 for i in issue_id:
     for j in issue_id:
         if i!=j:
             check=len(link[i].intersection(link[j]))
             if check:
-                print(str(i)+" "+str(j)+" "+str(check))
+                print(str(i)+"\t"+str(j)+"\t"+str(check))
     
 
         

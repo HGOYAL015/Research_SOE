@@ -10,3 +10,5 @@ BFB_ans.csv
 BFBCB_ans.csv
 BFBDB_ans.csv
 BFBFB_ans.csv
+B-Tgram-B_ans.csv
+B-Topic-B_ans.csv

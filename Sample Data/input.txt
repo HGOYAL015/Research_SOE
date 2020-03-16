@@ -1,3 +1,12 @@
 BCB_ans.csv
+BCBCB_ans.csv
+BCBDB_ans.csv
+BCBFB_ans.csv
 BDB_ans.csv
+BDBCB_ans.csv
+BDBDB_ans.csv
+BDBFB_ans.csv
 BFB_ans.csv
+BFBCB_ans.csv
+BFBDB_ans.csv
+BFBFB_ans.csv

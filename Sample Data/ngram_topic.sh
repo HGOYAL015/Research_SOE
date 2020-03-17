@@ -1,4 +1,4 @@
-read  file
+file="sample.csv"
 echo $file > input.txt
 python3 stam_let.py < input.txt > stammed_input.txt
 

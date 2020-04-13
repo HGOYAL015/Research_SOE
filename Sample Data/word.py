@@ -3,7 +3,11 @@ file = "stammed_input.txt"
 file_handle=open(file,'r')
 
 file_handle.readline()
-print("issue_id,topic_ngram")
+f=[]
+for i in range(0,8):
+    te="ngram_"+str(i)+".txt"
+    f.append(open(te,'w'))
+    f[i].write("issue_id,topic_ngram\n")
 for line in file_handle:
     ngram=dict()
     list_word=[]
@@ -14,8 +18,12 @@ for line in file_handle:
     list_word+=temp
     n=len(list_word)
     k=0
-    for i in list_word:
-        print(a+","+i)
+    # for 1gram
+    for i in list_word:   
+        te=str(a)+","+str(i)+"\n"
+        f[1].write(te)
+        # print(a+","+i)
+    
     for i in range(2,min(8,n+1)):
         word=list_word[0]
         for j in range(1,i):
@@ -33,10 +41,14 @@ for line in file_handle:
             else:
                 ngram[i][word]=1
         for jj in ngram[i]:
-            print(a+","+str(jj))
+            te=str(a)+","+str(jj)+"\n"
+            f[i].write(te)
 
 
 
+
+for i in range(0,8):
+    f[i].close()
 
 
         

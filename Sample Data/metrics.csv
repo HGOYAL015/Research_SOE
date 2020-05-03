@@ -1,4 +1,3 @@
-OrderedDict([('sloc', 25), ('comments', 2), ('ratio_comment_to_code', 0.08), ('mccabe', 7), ('block_positions', []), ('language', 'Python')])
 filename,sloc,comments,ratio_comment_to_code,mccabe,language
 BXB.py,25,2,0.08,7,Python
 BXBXB.py,76,4,0.05,28,Python

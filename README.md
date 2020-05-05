@@ -2,6 +2,8 @@
 
 Software Enginnering Research Project
 
+First run pip install -r requirements.txt
+
 How to Create Merged Table of metapaths
 
 =====================================

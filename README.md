@@ -2,6 +2,9 @@
 
 Software Enginnering Research Project
 
+In this research project we have devised an algorithm to predict the relationship (any kind of relationship) between any pair of given bugs. This algorithm takes input from all the previous relationships between the bugs and predicts the extent of any new relationship between any new pairs of bugs.
+
+
 First run pip install -r requirements.txt
 
 How to Create Merged Table of metapaths
